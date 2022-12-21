@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./index.css" />
+		<title>Tic-tac-toe</title>
+	</head>
+	<body>
+		<div id="main">
+			<div id="font-container">
+				<!--Game title-->
+				<h1 id="heading">TIC-TAC-TOE</h1>
+				<!--Game instructions-->
+				<p id="ins">
+					To start the game, just tap on a box.<br /><br /><b>Player X</b>
+					starts first.
+				</p>
+			</div>
+
+			<br /><br />
+			<!--Tic-tac-toe board (consisting of 3*3 boxes)-->
+			<input class="box" type="text" id="b1" onclick="myFunc1();" />
+			<input class="box" type="text" id="b2" onclick="myFunc2();" />
+			<input class="box" type="text" id="b3" onclick="myFunc3();" />
+			<input class="box" type="text" id="b4" onclick="myFunc4();" />
+			<input class="box" type="text" id="b5" onclick="myFunc5();" />
+			<input class="box" type="text" id="b6" onclick="myFunc6();" />
+			<input class="box" type="text" id="b7" onclick="myFunc7();" />
+			<input class="box" type="text" id="b8" onclick="myFunc8();" />
+			<input class="box" type="text" id="b9" onclick="myFunc9();" />
+			<br /><br /><br />
+			<div id="bottom-container">
+				<!--Reset button-->
+				<button id="reset" onclick="reset()">RESET</button>
+				<!--Keeps track of game status-->
+				<p id="status"></p>
+			</div>
+		</div>
+	</body>
+	<script src="./index.js"></script>
+</html>
