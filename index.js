@@ -202,7 +202,7 @@ const myFunc = () => {
 
 // this function simply reloads the page (a.k.a. resets the game)
 const reset = () => {
-	location.reload();
+	location.reload(true);
 };
 
 /*
